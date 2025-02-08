@@ -11,13 +11,15 @@
     <div id="container">
         <h1>Gerador de Senhas</h1>
 
-        <select name="select">
+        <select name="select" id="selequete">
             <option value="4">4 Caracteres</option>
             <option value="6" selected>6 Caracteres</option>
             <option value="8">8 Caracteres</option>
             <option value="outro">Outro</option>
           </select>
-          <button id="btn" onclick="criar()">Criar Senha</button>
+          <p id="sennha"></p>
+          <button id="btn" onclick="gerarSenha()">Criar Senha</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
